@@ -35,7 +35,7 @@
                     <th scope = "row"><?php echo $contato[$i]; ?></th>
                     <td><?php echo $contato[$i+1]; ?></td>
                     <td><?php echo $contato[$i+2]; ?></td>
-                    <td>Editar | Excluir</td>
+                    <td><a href="editar.php?posicao=<?php echo $i; ?>">Editar</a> | <a href="exclui.php?posicao=<?php echo $i; ?>">Excluir</a></td>
                 <?php
                     $i = $i + 3;
                     echo "</tr>";
